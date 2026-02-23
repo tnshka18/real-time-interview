@@ -1,0 +1,22 @@
+{
+  "name": "video-call-interview",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install --prefix backend && npm install --prefix frontend/video-call-interview && npm run build --prefix frontend ",
+    "start":"npm run start --prefix backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tnshka18/real-time-interview.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/tnshka18/real-time-interview/issues"
+  },
+  "homepage": "https://github.com/tnshka18/real-time-interview#readme"
+}
